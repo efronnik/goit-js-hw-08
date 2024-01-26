@@ -65,7 +65,7 @@ const images = [
 ];
 
 const galleryContainer = document.querySelector('.gallery');
-let lightboxInstance = null; // оголошення тут, з початковим значенням null
+let lightboxInstance = null;
 
 const galleryItemsMarkup = images
   .map(
